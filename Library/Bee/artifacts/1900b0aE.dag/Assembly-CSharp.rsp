@@ -352,6 +352,7 @@
 "Assets/script/Mob.cs"
 "Assets/script/WaveSpawner.cs"
 "Assets/script/Waypoints.cs"
+"Assets/Turret.cs"
 -langversion:9.0
 
 /deterministic
