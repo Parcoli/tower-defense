@@ -56,10 +56,10 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\script\Turret.cs" />
     <Compile Include="Assets\script\Waypoints.cs" />
     <Compile Include="Assets\script\Mob.cs" />
     <Compile Include="Assets\script\WaveSpawner.cs" />
-    <Compile Include="Assets\Turret.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
