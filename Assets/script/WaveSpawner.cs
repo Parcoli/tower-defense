@@ -48,6 +48,6 @@ public class WaveSpawner : MonoBehaviour
 
     void SpawnMob()
     {
-        Instantiate(mobPrefab,spawnPoint.position   ,spawnPoint.rotation);
+        Instantiate(mobPrefab,spawnPoint.position,spawnPoint.rotation);
     }
 }

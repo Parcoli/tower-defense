@@ -61,6 +61,8 @@
     <Compile Include="Assets\script\Waypoints.cs" />
     <Compile Include="Assets\script\Mob.cs" />
     <Compile Include="Assets\script\WaveSpawner.cs" />
+    <Compile Include="Assets\script\Node.cs" />
+    <Compile Include="Assets\script\BuildManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

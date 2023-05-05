@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8313282059510729074}
   - component: {fileID: 6122526889105461757}
   - component: {fileID: 7394692099712742577}
+  - component: {fileID: 1434816210207947878}
   m_Layer: 0
   m_Name: Mob
   m_TagString: Mob
@@ -97,3 +98,16 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1434816210207947878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047844798933880499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8bfcbb3501fac849a8e32501c58b954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
