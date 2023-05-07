@@ -6,9 +6,11 @@ public class Node : MonoBehaviour
 {
 
     public Color hoverColor;
+    public Vector3 positionOffset;
     private GameObject turret;
     private Color startColor;
     private Renderer rend;
+
 
     private void Start()
     {
@@ -24,7 +26,8 @@ public class Node : MonoBehaviour
             return;
         }
 
-        // Construction d'une tourelle
+        GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
+        turret = (GameObject)Instantiate(turretToBuild, transform.position + positionOffset, transform.rotation);
 
     }
 
