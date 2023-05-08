@@ -17,8 +17,6 @@ public class BuildManager : MonoBehaviour
         instance = this;
     }
     #endregion
-    public GameObject standardTurretPreb;
-    public GameObject missileLauncherPreb;
     public GameObject buildEffect;
     private TurretBluePrint turretToBuild;
 
