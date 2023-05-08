@@ -14,7 +14,7 @@ public class WaveSpawner : MonoBehaviour
     [SerializeField]
     private Text waveCountDownTimer;
 
-    private float countdown = 2f;
+    private float countdown = 5f;
 
     private int waveIndex = 0;
 
@@ -30,7 +30,8 @@ public class WaveSpawner : MonoBehaviour
         }
 
         countdown -= Time.deltaTime;
-        waveCountDownTimer.text = Mathf.Round(countdown).ToString();
+        countdown = Mathf.Clamp(countdown, 0f, Mathf.Infinity);
+        waveCountDownTimer.text = string.Format("{0:00.00}",countdown);
     }
     // Une coroutine permet d'avoir un délai entre 2 apelles, besoin d'un retour
     IEnumerator SpawnWave()
