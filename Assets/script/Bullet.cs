@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
     private Transform target;
     public GameObject impactEffect;
     public float speed = 70f;
+    public int damage = 50;
     public float explosionRadius = 0f;
 
     public void Seek(Transform _target)
@@ -13,7 +14,6 @@ public class Bullet : MonoBehaviour
         target = _target;
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         
@@ -71,7 +71,16 @@ public class Bullet : MonoBehaviour
 
     void Damage(Transform mob)
     {
-        Destroy(mob.gameObject);
+        Mob m = mob.GetComponent<Mob>();
+        if(m != null)
+        {
+            m.TakeDamage(damage);
+        }
+        else
+        {
+            Debug.LogError("Pas de script Mob sur l'ennemi");
+        }
+
     }
 
     private void OnDrawGizmosSelected()
