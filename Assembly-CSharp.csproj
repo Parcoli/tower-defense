@@ -67,10 +67,11 @@
     <Compile Include="Assets\script\MoneyUI.cs" />
     <Compile Include="Assets\script\PlayerStats.cs" />
     <Compile Include="Assets\script\Node.cs" />
+    <Compile Include="Assets\script\MobMovement.cs" />
     <Compile Include="Assets\script\Mob.cs" />
     <Compile Include="Assets\script\BuildManager.cs" />
     <Compile Include="Assets\script\WaveSpawner.cs" />
-    <Compile Include="Assets\MobMovement.cs" />
+    <Compile Include="Assets\script\GameOver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
