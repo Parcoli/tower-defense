@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    private bool canMove = true;
+    private bool canMove = false;
     public float panSpeed = 30f;
     public float panBorder = 10f;
     public float scrollSpeed = 5f;
@@ -19,7 +19,7 @@ public class CameraController : MonoBehaviour
             return;
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.C))
         {
             canMove = !canMove;
         }
