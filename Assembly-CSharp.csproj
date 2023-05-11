@@ -68,6 +68,7 @@
     <Compile Include="Assets\script\NodeUI.cs" />
     <Compile Include="Assets\script\MoneyUI.cs" />
     <Compile Include="Assets\script\PlayerStats.cs" />
+    <Compile Include="Assets\script\SceneFader.cs" />
     <Compile Include="Assets\script\Node.cs" />
     <Compile Include="Assets\script\MobMovement.cs" />
     <Compile Include="Assets\script\PauseMenu.cs" />

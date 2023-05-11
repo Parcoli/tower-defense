@@ -1,21 +1,26 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Mob : MonoBehaviour
 {
     public float startSpeed = 10f;
     [HideInInspector]
     public float speed;
-    public float health = 100f;
+    public float starthealth = 100f;
+    public float health;
     public int rewardMoney = 50;
     public GameObject deathEffect;
+    public Image healthBar;
 
     public void Start()
     {
         speed = startSpeed;
+        health = starthealth;
     }
     public void TakeDamage(float amount)
     {
         health -= amount;
+        healthBar.fillAmount = health/starthealth;
 
         if(health <= 0)
         {
