@@ -7,6 +7,7 @@ public class Mob : MonoBehaviour
     [HideInInspector]
     public float speed;
     public float starthealth = 100f;
+    [HideInInspector]
     public float health;
     public int rewardMoney = 50;
     public GameObject deathEffect;
@@ -37,6 +38,7 @@ public class Mob : MonoBehaviour
         PlayerStats.money += rewardMoney;
         GameObject deathParticles = Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(deathParticles, 2f);
+        WaveSpawner._mobAlive--;
         Destroy(gameObject);
     }
 

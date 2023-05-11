@@ -362,6 +362,7 @@
 "Assets/script/Shop.cs"
 "Assets/script/Turret.cs"
 "Assets/script/TurretBluePrint.cs"
+"Assets/script/Wave.cs"
 "Assets/script/WaveSpawner.cs"
 "Assets/script/Waypoints.cs"
 -langversion:9.0

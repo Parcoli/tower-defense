@@ -44,6 +44,7 @@ public class MobMovement : MonoBehaviour
     public void EndPath()
     {
         PlayerStats.lives--;
+        WaveSpawner._mobAlive--;
         Destroy(gameObject);
     }
 }
