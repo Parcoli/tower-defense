@@ -11,6 +11,8 @@ public class PlayerStats : MonoBehaviour
     public int startLives = 20;
 
     public static int rounds;
+
+    public static int roundsSurived;
     public void Start()
     {
         rounds = 0;

@@ -40889,24 +40889,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca8bbfb60825e8345be9089db9c64cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waves:
-  - mob: {fileID: 9047844798933880499, guid: 95dcc8c1bcd68fe4685079862112fd5c, type: 3}
-    count: 1
-    rate: 2
-  - mob: {fileID: 9047844798933880499, guid: 95dcc8c1bcd68fe4685079862112fd5c, type: 3}
-    count: 2
-    rate: 2
-  - mob: {fileID: 9047844798933880499, guid: 95dcc8c1bcd68fe4685079862112fd5c, type: 3}
-    count: 3
-    rate: 2
-  - mob: {fileID: 9047844798933880499, guid: a7301410af5ecb4499f45563204e300c, type: 3}
-    count: 1
-    rate: 2
-  - mob: {fileID: 9047844798933880499, guid: f0b66d4ae8ab32947b657c9be3a44aa5, type: 3}
-    count: 6
-    rate: 2
+  wave:
+    mobNormal: {fileID: 9047844798933880499, guid: 95dcc8c1bcd68fe4685079862112fd5c, type: 3}
+    mobFast: {fileID: 9047844798933880499, guid: f0b66d4ae8ab32947b657c9be3a44aa5, type: 3}
+    mobSlow: {fileID: 9047844798933880499, guid: a7301410af5ecb4499f45563204e300c, type: 3}
+    count: 0
+    rate: 1
   spawnPoint: {fileID: 241154967}
-  timeBetweenWaves: 10
+  timeBetweenWaves: 2
   waveCountDownTimer: {fileID: 1318553534}
 --- !u!4 &2147037076
 Transform:
@@ -40951,7 +40941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 400
-  startLives: 1
+  startLives: 5
 --- !u!114 &2147037079
 MonoBehaviour:
   m_ObjectHideFlags: 0

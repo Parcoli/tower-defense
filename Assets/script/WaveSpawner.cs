@@ -6,7 +6,7 @@ public class WaveSpawner : MonoBehaviour
 {
     public static int _mobAlive = 0;
 
-    public Wave[] waves;
+    public Wave wave;
     [SerializeField]
     private Transform spawnPoint;
     [SerializeField]
@@ -16,9 +16,8 @@ public class WaveSpawner : MonoBehaviour
 
     private float countdown = 5f;
 
-    private int waveIndex = 0;
+    private int MobsNumber = 0;
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -45,27 +44,33 @@ public class WaveSpawner : MonoBehaviour
     {
 
         PlayerStats.rounds++;
+        _mobAlive = PlayerStats.rounds;
 
-        Wave wave = waves[waveIndex];
 
-        for (int i = 0; i < wave.count; i++)
+        for (int i = 0; i < PlayerStats.rounds; i++)
         {
-            SpawnMob(wave.mob);
+            int generate = Random.Range(0, 20);
+
+            if (generate >= 10)
+            { 
+                SpawnMob(wave.mobNormal); 
+            }
+            else if (generate >= 7)
+            {
+                SpawnMob(wave.mobSlow);
+            }
+            else
+            {
+                SpawnMob(wave.mobFast);
+            }
+
             yield return new WaitForSeconds(1f/wave.rate);
         }
 
-        waveIndex++;
-
-        if(waveIndex == waves.Length)
-        {
-            Debug.Log("GG !");
-            this.enabled = false;
-        }
     }
 
     void SpawnMob(GameObject mob)
     {
         Instantiate(mob,spawnPoint.position,spawnPoint.rotation);
-        _mobAlive++;
     }
 }

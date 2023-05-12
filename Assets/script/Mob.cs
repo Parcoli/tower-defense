@@ -12,6 +12,7 @@ public class Mob : MonoBehaviour
     public int rewardMoney = 50;
     public GameObject deathEffect;
     public Image healthBar;
+    public bool isDead;
 
     public void Start()
     {
@@ -23,7 +24,7 @@ public class Mob : MonoBehaviour
         health -= amount;
         healthBar.fillAmount = health/starthealth;
 
-        if(health <= 0)
+        if(health <= 0 && !isDead)
         {
             Die();
         }
@@ -35,6 +36,7 @@ public class Mob : MonoBehaviour
     }
     private void Die()
     {
+        isDead = true;
         PlayerStats.money += rewardMoney;
         GameObject deathParticles = Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(deathParticles, 2f);
