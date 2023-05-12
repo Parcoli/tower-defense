@@ -350,6 +350,7 @@
 "Assets/script/CameraController.cs"
 "Assets/script/GameManager.cs"
 "Assets/script/GameOver.cs"
+"Assets/script/LevelSelector.cs"
 "Assets/script/LivesUI.cs"
 "Assets/script/Mob.cs"
 "Assets/script/MobMovement.cs"
