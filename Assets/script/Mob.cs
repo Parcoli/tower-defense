@@ -12,6 +12,9 @@ public class Mob : MonoBehaviour
     public int rewardMoney = 50;
     public GameObject deathEffect;
     public Image healthBar;
+    public bool isFire;
+    public bool isIce;
+    [HideInInspector]
     public bool isDead;
 
     public void Start()
