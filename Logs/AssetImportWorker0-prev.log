@@ -1,0 +1,1379 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 7991 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/cleme/Tower defense
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49931
+Successfully changed project path to: C:/Users/cleme/Tower defense
+C:/Users/cleme/Tower defense
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2880] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 2166564711 [EditorId] 2166564711 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MAOAV7FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2880] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 2166564711 [EditorId] 2166564711 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MAOAV7FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 118.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cleme/Tower defense/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   Intel
+    VRAM:     3995 MB
+    Driver:   27.20.100.9268
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014852 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 96.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006706 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cleme\Tower defense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cleme\Tower defense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1463ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1153ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (564ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.5 KB). Loaded Objects now: 3546.
+Memory consumption went from 183.7 MB to 183.6 MB.
+Total: 4.273700 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.192400 ms MarkObjects: 3.686000 ms  DeleteObjects: 0.112300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 629.291523 seconds.
+  path: Assets/Mobs/Slow/MobSlow.prefab
+  artifactKey: Guid(a7301410af5ecb4499f45563204e300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Slow/MobSlow.prefab using Guid(a7301410af5ecb4499f45563204e300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795f4dafe96b02ecb0c1b0819d375dad') in 0.174780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 349.423786 seconds.
+  path: Assets/prefabs/LevelButton.prefab
+  artifactKey: Guid(0f8e8950242b82b438ea76beeeaa94b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/LevelButton.prefab using Guid(0f8e8950242b82b438ea76beeeaa94b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5294043afcf7493c31719c90af4100a1') in 0.038619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/prefabs/Mob.prefab
+  artifactKey: Guid(b34933df5d033a04f93601767fb038f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Mob.prefab using Guid(b34933df5d033a04f93601767fb038f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdefe387992519c904b016757ba2cb66') in 0.024102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.685486 seconds.
+  path: Assets/Mobs/Fast/MobFast.prefab
+  artifactKey: Guid(f0b66d4ae8ab32947b657c9be3a44aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fast/MobFast.prefab using Guid(f0b66d4ae8ab32947b657c9be3a44aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af15ea4a794a02fbd9615b06a8bb0e38') in 0.031864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.426843 seconds.
+  path: Assets/Mobs/Normal/MobNormal.prefab
+  artifactKey: Guid(95dcc8c1bcd68fe4685079862112fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Normal/MobNormal.prefab using Guid(95dcc8c1bcd68fe4685079862112fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f92705a4cc103eb90286706962acfe6') in 0.031452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1204.445360 seconds.
+  path: Assets/Mobs/Normal 1/MobDeathEffectNormal.prefab
+  artifactKey: Guid(f98861782d234884fa15c61d688cc257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Normal 1/MobDeathEffectNormal.prefab using Guid(f98861782d234884fa15c61d688cc257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22178e0c3ef58fa4bc760d1273f8b5d9') in 0.021953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mobs/Normal 1/MobNormal.prefab
+  artifactKey: Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Normal 1/MobNormal.prefab using Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14513e7c45a978408da120f06f568a6') in 0.034655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mobs/Normal 1/MobNormal.mat
+  artifactKey: Guid(bb872c77fcf62b7409ec7bf1a44c415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Normal 1/MobNormal.mat using Guid(bb872c77fcf62b7409ec7bf1a44c415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615fdef69e968d73ea4be0695d689ab1') in 0.062075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 314.252261 seconds.
+  path: Assets/Mobs/Fire/MobFire.mat
+  artifactKey: Guid(bb872c77fcf62b7409ec7bf1a44c415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobFire.mat using Guid(bb872c77fcf62b7409ec7bf1a44c415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf0154304fc953f30bf664d03cc8e38') in 0.014371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.796581 seconds.
+  path: Assets/Mobs/Fire/MobFire.prefab
+  artifactKey: Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobFire.prefab using Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9666a3c397acbd50c9992734af9e2e0') in 0.016502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.582860 seconds.
+  path: Assets/Mobs/Fire/MobDeathEffectFire.prefab
+  artifactKey: Guid(f98861782d234884fa15c61d688cc257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobDeathEffectFire.prefab using Guid(f98861782d234884fa15c61d688cc257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d29313d618c2949536e8cbc83a27b7d') in 0.035139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.387127 seconds.
+  path: Assets/Mobs/Fire/MobFire.prefab
+  artifactKey: Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobFire.prefab using Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2456134975e8de2e15035a6e35c14ad') in 0.018377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 113.893480 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Laser Beamer/Materials/Pipe.mat
+  artifactKey: Guid(a5d73cd99b1df9547aa8f6bb44ad0a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Laser Beamer/Materials/Pipe.mat using Guid(a5d73cd99b1df9547aa8f6bb44ad0a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ef7787ec871a230b7a329e9364dd65') in 0.025149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Laser Beamer/Upgraded Materials/Pipe Upgrade.mat
+  artifactKey: Guid(a2c99f061bb4e5f4abcb03b6b70f80fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Laser Beamer/Upgraded Materials/Pipe Upgrade.mat using Guid(a2c99f061bb4e5f4abcb03b6b70f80fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bafbe6e3fac504a0e3372cab01d726f') in 0.020558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.415973 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Missile Launcher/Materials/Stand.mat
+  artifactKey: Guid(ba7095d7de54fa44c992daefb05b3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Missile Launcher/Materials/Stand.mat using Guid(ba7095d7de54fa44c992daefb05b3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820076e51d68499a73d2ffe28c5830cd') in 0.030297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Laser Beamer/Materials/Stand.mat
+  artifactKey: Guid(dad815f5e910d5f46908e46885517ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Laser Beamer/Materials/Stand.mat using Guid(dad815f5e910d5f46908e46885517ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fe3441e9149282e3350555843bb136') in 0.020497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.398329 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Missile Launcher/UpgradedMaterials/Stand Upgrade.mat
+  artifactKey: Guid(9a7ef1a068318af42816792645e44738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Missile Launcher/UpgradedMaterials/Stand Upgrade.mat using Guid(9a7ef1a068318af42816792645e44738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bc00144312dae7d244e340f8231e8b') in 0.014479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Laser Beamer/Upgraded Materials/Stand Upgrade.mat
+  artifactKey: Guid(de335a9962e0a714b90db3c4bee4c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Laser Beamer/Upgraded Materials/Stand Upgrade.mat using Guid(de335a9962e0a714b90db3c4bee4c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f4e92d208b0e24f8dd2446dc81e657') in 0.027176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.644043 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Missile Launcher/Materials/Turret Accent.mat
+  artifactKey: Guid(8cf799b4e1865264491011c26eb77442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Missile Launcher/Materials/Turret Accent.mat using Guid(8cf799b4e1865264491011c26eb77442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0079d1dab554513928acf8ab972a1f') in 0.018924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.498344 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Laser Beamer/Materials/Turret Accent.mat
+  artifactKey: Guid(ebb6809d27ceda44686933c22cebed1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Laser Beamer/Materials/Turret Accent.mat using Guid(ebb6809d27ceda44686933c22cebed1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d54382947cf879cd81c9f0201f62d7') in 0.016247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Missile Launcher/UpgradedMaterials/Turret Accent Upgrade.mat
+  artifactKey: Guid(dc3a880d35cf3a84f9309fffdcf6803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Missile Launcher/UpgradedMaterials/Turret Accent Upgrade.mat using Guid(dc3a880d35cf3a84f9309fffdcf6803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb58644079fd05179a9983028c2d789') in 0.024105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105965 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Laser Beamer/Upgraded Materials/Turret Accent Upgrade.mat
+  artifactKey: Guid(e506f4dc01d586140b364657ba160763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Laser Beamer/Upgraded Materials/Turret Accent Upgrade.mat using Guid(e506f4dc01d586140b364657ba160763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44810533b4ac39ab6d6e43f27862e10') in 0.016437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_barrels.mat
+  artifactKey: Guid(7d11c660fc6583145a8f83d74fe67861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_barrels.mat using Guid(7d11c660fc6583145a8f83d74fe67861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d99cd8c5a35adaa71dbaf82d277d06') in 0.026751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.546648 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/UpgradeMaterials/Turret_barrels_Upgrade.mat
+  artifactKey: Guid(70ed0ecc1dd453a47becf27870b8c8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/UpgradeMaterials/Turret_barrels_Upgrade.mat using Guid(70ed0ecc1dd453a47becf27870b8c8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0321a9a502986f4ebfb536d2c35df2f') in 0.013438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Turret with panels.fbx
+  artifactKey: Guid(25aabe8f4d7d5034ba90c5cc10e025a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Turret with panels.fbx using Guid(25aabe8f4d7d5034ba90c5cc10e025a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10bcf52e30ebddbca792f2cdf666bf6') in 0.170214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341320 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_GunMetal.mat
+  artifactKey: Guid(00812778737ffd84da8f8667eb9c246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_GunMetal.mat using Guid(00812778737ffd84da8f8667eb9c246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6ffb74151d9beb906822b78b8b2796') in 0.017219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Main.mat
+  artifactKey: Guid(a749875a2d9db8b46b4762b37c6c0e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Main.mat using Guid(a749875a2d9db8b46b4762b37c6c0e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1922f8d7851fb30137b2971677ccbd28') in 0.031266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.528607 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/UpgradeMaterials/Turret_Main_Upgrade.mat
+  artifactKey: Guid(4ac16032ab13aea4aa71747b2e6a0e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/UpgradeMaterials/Turret_Main_Upgrade.mat using Guid(4ac16032ab13aea4aa71747b2e6a0e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2fd0ba7537fb1594c224c4967cc8b5') in 0.035517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.140761 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Metal.mat
+  artifactKey: Guid(b667c44f16b0ed648a91171f371ac175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Metal.mat using Guid(b667c44f16b0ed648a91171f371ac175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3b6ed8ece38730bcc8c1f8a0d14945') in 0.013323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Metal2.mat
+  artifactKey: Guid(221c18ab0dda6fe46b462121002666ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Metal2.mat using Guid(221c18ab0dda6fe46b462121002666ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc9e707b72f4056cd3990121aa65d56') in 0.031456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.576748 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Secondary.mat
+  artifactKey: Guid(9c61cf17fe97703479369d0689f5f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Secondary.mat using Guid(9c61cf17fe97703479369d0689f5f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b251ab9951b4887b26fe513cbdf225') in 0.029788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/UpgradeMaterials/Turret_Secondary_Upgrade.mat
+  artifactKey: Guid(9bec44899b53b9b46a1cc25f1d8cf5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/UpgradeMaterials/Turret_Secondary_Upgrade.mat using Guid(9bec44899b53b9b46a1cc25f1d8cf5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242f8c8cc4506465ade6c6af4cccab57') in 0.026782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.631178 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Missile Launcher/UpgradedMaterials/Missile Launcher Texture Upgrade.mat
+  artifactKey: Guid(55861b1b3fbfd174db3ea0a07d7d97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Missile Launcher/UpgradedMaterials/Missile Launcher Texture Upgrade.mat using Guid(55861b1b3fbfd174db3ea0a07d7d97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f8664437c32aa6ad7293a1642551f6') in 0.018597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Missile Launcher/Materials/Main Turret.mat
+  artifactKey: Guid(d9fec6ad3150e9f4ead6f7a6ea3ff403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Missile Launcher/Materials/Main Turret.mat using Guid(d9fec6ad3150e9f4ead6f7a6ea3ff403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49104d9d3027927445b27ac682d02e61') in 0.020479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ace6ee1aead948e9a0efa9813c4a9d4') in 0.074636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e18adec1382e246dbd9442aaa097f6') in 0.132703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Missile Launcher/Materials/Missile Launcher Texture.mat
+  artifactKey: Guid(a2420c3f625f7a840a1bb323d43d7ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Missile Launcher/Materials/Missile Launcher Texture.mat using Guid(a2420c3f625f7a840a1bb323d43d7ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2687d16473283b7761bbc588fdaa2b') in 0.036515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c98c4189551240c6ed1b81c9e834274') in 0.050541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c9d204b5414c44906fa92d7d63f94f') in 0.052822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Laser Beamer/Upgraded Materials/Main Turret Upgrade.mat
+  artifactKey: Guid(816cdd5ba6dc3e446842619ffeae304f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Laser Beamer/Upgraded Materials/Main Turret Upgrade.mat using Guid(816cdd5ba6dc3e446842619ffeae304f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8b9aaba1ab3044da2bc2f53c4f8c3f') in 0.021778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Laser Beamer/Materials/Main Turret.mat
+  artifactKey: Guid(425c9cdfa70a74945bfad4f741248135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Laser Beamer/Materials/Main Turret.mat using Guid(425c9cdfa70a74945bfad4f741248135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f325242e29682e6d5636e07eb5dab3') in 0.017733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8d862e578a25ad5817a2367ef2d3d8') in 0.051890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Missile Launcher/UpgradedMaterials/Main Turret Upgrade.mat
+  artifactKey: Guid(b0efa03d51356814ca666b6a88b37d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Missile Launcher/UpgradedMaterials/Main Turret Upgrade.mat using Guid(b0efa03d51356814ca666b6a88b37d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6a3d1d4bc25469d78d68ecd7fb2e07') in 0.027824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.682050 seconds.
+  path: Assets/Mobs/Fire/MobDeathEffectFire.prefab
+  artifactKey: Guid(f98861782d234884fa15c61d688cc257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobDeathEffectFire.prefab using Guid(f98861782d234884fa15c61d688cc257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980d71dda660dd85dbe788fc5eb861e7') in 0.010529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.951312 seconds.
+  path: Assets/Mobs/Fire 1/MobDeathEffectFire.prefab
+  artifactKey: Guid(3779dfa373bfe5240aa208f6bff601fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire 1/MobDeathEffectFire.prefab using Guid(3779dfa373bfe5240aa208f6bff601fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c004d9f3d37f03e755f25a1c038be1b') in 0.024198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mobs/Fire 1/MobFire.prefab
+  artifactKey: Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire 1/MobFire.prefab using Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46859bdcb9843f58be4639231c43f4af') in 0.034017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Mobs/Fire 1/MobFire.mat
+  artifactKey: Guid(43c674d584f850f4ab8cd4a976754d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire 1/MobFire.mat using Guid(43c674d584f850f4ab8cd4a976754d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d4fe024f8eb7632800b7efb3ac4900') in 0.025732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.452432 seconds.
+  path: Assets/Mobs/Ice/MobIce.mat
+  artifactKey: Guid(43c674d584f850f4ab8cd4a976754d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Ice/MobIce.mat using Guid(43c674d584f850f4ab8cd4a976754d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34c17750ce47c910fa6457db81417ce') in 0.016706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.153956 seconds.
+  path: Assets/Mobs/Ice/MobIce.prefab
+  artifactKey: Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Ice/MobIce.prefab using Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183d04e4713ba00e4a677e50c09dbf65') in 0.021059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.247063 seconds.
+  path: Assets/Mobs/Ice/MobDeathEffectIce.prefab
+  artifactKey: Guid(3779dfa373bfe5240aa208f6bff601fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Ice/MobDeathEffectIce.prefab using Guid(3779dfa373bfe5240aa208f6bff601fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc3000c6ebaeee087f3dfd8e6160233') in 0.019318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.271229 seconds.
+  path: Assets/Mobs/Ice/MobIce.prefab
+  artifactKey: Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Ice/MobIce.prefab using Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c21743d42708f72c2cc0b084b5548a') in 0.017393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.922804 seconds.
+  path: Assets/Mobs/Ice/MobDeathEffectIce.prefab
+  artifactKey: Guid(3779dfa373bfe5240aa208f6bff601fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Ice/MobDeathEffectIce.prefab using Guid(3779dfa373bfe5240aa208f6bff601fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca844a5b12cb0d0c199329436673908') in 0.015799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.229598 seconds.
+  path: Assets/Mobs/Fire/MobDeathEffectFire.prefab
+  artifactKey: Guid(f98861782d234884fa15c61d688cc257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobDeathEffectFire.prefab using Guid(f98861782d234884fa15c61d688cc257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87075ab1affa7547a2ddb09bda71ddfc') in 0.017407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobs/Fire/MobFire.prefab
+  artifactKey: Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobFire.prefab using Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79677862c7fc890f87094392a288b21') in 0.033383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mobs/Fire/MobFire.mat
+  artifactKey: Guid(bb872c77fcf62b7409ec7bf1a44c415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobFire.mat using Guid(bb872c77fcf62b7409ec7bf1a44c415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219021831348c55306186ca461ddea83') in 0.036252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.496128 seconds.
+  path: Assets/Level02/LightingData.asset
+  artifactKey: Guid(af921452192faf84e8856893cfd7d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level02/LightingData.asset using Guid(af921452192faf84e8856893cfd7d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '6e8136b22ff6660b4f6be0abc85147dd') in 0.005928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Level02/ReflectionProbe-0.exr
+  artifactKey: Guid(a1cce9f10ebed394aa7244dd44d6b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level02/ReflectionProbe-0.exr using Guid(a1cce9f10ebed394aa7244dd44d6b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34604e6f90588338095782cefd5686ae') in 0.056117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.423046 seconds.
+  path: Assets/Imports/tower-defense-assets
+  artifactKey: Guid(0ae036c3b9dba174998fea53d981005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets using Guid(0ae036c3b9dba174998fea53d981005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d5ab3180f5f11fafa70365db9a11fb') in 0.003946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.664877 seconds.
+  path: Assets/Mobs/Fire/MobFire.prefab
+  artifactKey: Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobFire.prefab using Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33601b7a1376995f7ce29f1bcd25686') in 0.033258 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007187 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cleme\Tower defense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cleme\Tower defense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (80.8 KB). Loaded Objects now: 3604.
+Memory consumption went from 187.5 MB to 187.4 MB.
+Total: 3.315500 ms (FindLiveObjects: 0.316500 ms CreateObjectMapping: 0.165800 ms MarkObjects: 2.734000 ms  DeleteObjects: 0.097800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.796427 seconds.
+  path: Assets/Mobs/Fire/MobFire.prefab
+  artifactKey: Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobFire.prefab using Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cc834e26bca0fb106e0c194e0c9e07') in 0.170605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.441480 seconds.
+  path: Assets/Mobs/Fire/MobFire.prefab
+  artifactKey: Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobFire.prefab using Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db16450e9f9fc08dcbd2c9d1badc1969') in 0.023259 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004238 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cleme\Tower defense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cleme\Tower defense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1216ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (973ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.0 KB). Loaded Objects now: 3607.
+Memory consumption went from 187.5 MB to 187.4 MB.
+Total: 3.269900 ms (FindLiveObjects: 0.430800 ms CreateObjectMapping: 0.213100 ms MarkObjects: 2.514600 ms  DeleteObjects: 0.109700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.039681 seconds.
+  path: Assets/Mobs/Fire/MobFire.prefab
+  artifactKey: Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Fire/MobFire.prefab using Guid(ed5f3d9037e38e24e937e33ff559cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38d3a8ba2203535d689c0fb0153e059') in 0.142248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.177585 seconds.
+  path: Assets/Mobs/Ice/MobIce.prefab
+  artifactKey: Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Ice/MobIce.prefab using Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230ea9c52b072a3648aa8c65e6ed0819') in 0.017582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.492199 seconds.
+  path: Assets/Mobs/Ice/MobIce.prefab
+  artifactKey: Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobs/Ice/MobIce.prefab using Guid(efbfe8842d31cd64cb5495f7827734e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c2b1be22282d5aebfd285b730eb6d6') in 0.021066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 486.687153 seconds.
+  path: Assets/prefabs/Mob.prefab
+  artifactKey: Guid(b34933df5d033a04f93601767fb038f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Mob.prefab using Guid(b34933df5d033a04f93601767fb038f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a179b37df78c9b7b3a0bf1bfbfcbb87') in 0.018051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 512.544394 seconds.
+  path: Assets/Turrets
+  artifactKey: Guid(6b89746baf3da344bbefef3f97c4696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets using Guid(6b89746baf3da344bbefef3f97c4696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3905ba9b0c156171199b0537bc43e9b3') in 0.004417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.443804 seconds.
+  path: Assets/Turrets/Standard
+  artifactKey: Guid(146a3b4dbf1d9694a9f83d4411275f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Standard using Guid(146a3b4dbf1d9694a9f83d4411275f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6395906aca98fad34d1a6685c59649b') in 0.014976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.847525 seconds.
+  path: Assets/Turrets/Missile Launcher
+  artifactKey: Guid(596ba24910f4d534d8be4897915cc458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Missile Launcher using Guid(596ba24910f4d534d8be4897915cc458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef57c22cbbf261ce98ab901d936888f') in 0.004806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.741293 seconds.
+  path: Assets/Turrets/Laser Beamer
+  artifactKey: Guid(a6277579f74ab6b4791d8b20828d02b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Laser Beamer using Guid(a6277579f74ab6b4791d8b20828d02b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bbd79806340d41cd2eae8aa93e5e3b') in 0.004004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.630832 seconds.
+  path: Assets/Turrets/Ice Turret
+  artifactKey: Guid(f0e395fbc68e68548969b58f6086cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret using Guid(f0e395fbc68e68548969b58f6086cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bff9869a8ad0ad77691d8e5970b1fa') in 0.005002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.539638 seconds.
+  path: Assets/Turrets/Fire Turret
+  artifactKey: Guid(1f17fe65807f8e9428249c36e6bd6fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret using Guid(1f17fe65807f8e9428249c36e6bd6fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee1d8d96b8e2536f4394b78dd6a4866') in 0.005021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.001067 seconds.
+  path: Assets/Turrets/Standard/StandardTurretUpgrade 1.prefab
+  artifactKey: Guid(f3ffa4131462ce743ba9978c80f27269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Standard/StandardTurretUpgrade 1.prefab using Guid(f3ffa4131462ce743ba9978c80f27269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3927b0ecf0193af6b1e8e1518c4fbda9') in 0.044535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.743133 seconds.
+  path: Assets/Turrets/Standard/StandardTurret 1.prefab
+  artifactKey: Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Standard/StandardTurret 1.prefab using Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505f1cae1111efbd8bd9fc2c0c181355') in 0.032740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Turrets/Standard/StandardTurretUpgrade 1.prefab
+  artifactKey: Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Standard/StandardTurretUpgrade 1.prefab using Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd981a7af90411f0d7f21cbede5abcfb7') in 0.033042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.630440 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret.prefab
+  artifactKey: Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret.prefab using Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78dfa9d882b99e0bde765c9d6577535') in 0.025302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.221554 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade.prefab
+  artifactKey: Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade.prefab using Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db78651d642140eca8f7914f020374d6') in 0.024165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.012139 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_barrels 1.mat
+  artifactKey: Guid(4e373f13b74a75741b0afaae9f1d0163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_barrels 1.mat using Guid(4e373f13b74a75741b0afaae9f1d0163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062eb535dc4d3af451e1129cf23bea31') in 0.134714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Secondary 1.mat
+  artifactKey: Guid(63bda8d8b51853445babdce6ab028010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Secondary 1.mat using Guid(63bda8d8b51853445babdce6ab028010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10da50d0e2972b7ba1f143b18686f461') in 0.045438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_GunMetal 1.mat
+  artifactKey: Guid(e964ef5974696cb4ab58d9c3ca970e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_GunMetal 1.mat using Guid(e964ef5974696cb4ab58d9c3ca970e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca18dc854a59995d5cfd6a90703c81f0') in 0.029584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Metal 1.mat
+  artifactKey: Guid(0bf11ecb6019ed545bdb0022379dbc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Metal 1.mat using Guid(0bf11ecb6019ed545bdb0022379dbc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb10a218dd0f15e0f224824bc853db0d') in 0.017200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Metal2 1.mat
+  artifactKey: Guid(03cd5991ef4471c438f5028e6cb60c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Metal2 1.mat using Guid(03cd5991ef4471c438f5028e6cb60c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a606625f603ff9498c813c3ffc840a') in 0.015055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Main 1.mat
+  artifactKey: Guid(50d1a409456ea83439837e1010828d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Materials/Turret_Main 1.mat using Guid(50d1a409456ea83439837e1010828d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bede51880815ef9af16ae47191dcdac') in 0.039138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.941054 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_barrels 1.mat
+  artifactKey: Guid(929017bf74cf3424d8f9285341aa6bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_barrels 1.mat using Guid(929017bf74cf3424d8f9285341aa6bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177b0e8d9ba9a3ac3486b32f74ca8ab3') in 0.014455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Metal 1.mat
+  artifactKey: Guid(e7f4e55d96415ea459af4eb77184f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Metal 1.mat using Guid(e7f4e55d96415ea459af4eb77184f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd09e647f9a286321598253f0f2d8a2c') in 0.028078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_GunMetal 1.mat
+  artifactKey: Guid(f9e114c326c150f47aff264041bae695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_GunMetal 1.mat using Guid(f9e114c326c150f47aff264041bae695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48eedc494fe00cbef3fbd55c5299bc56') in 0.018492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Main 1.mat
+  artifactKey: Guid(9e9fd45470bfbfb4788521e58d6512e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Main 1.mat using Guid(9e9fd45470bfbfb4788521e58d6512e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f610b20888b1aa6b7ae930609af06346') in 0.019083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Metal2 1.mat
+  artifactKey: Guid(402fe7bcef61fc3458ecec778dc9c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Metal2 1.mat using Guid(402fe7bcef61fc3458ecec778dc9c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851d5457cfd6be9fdf9c861be12d0b27') in 0.038006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Secondary 1.mat
+  artifactKey: Guid(6302d8c0a72fd974a90464b457778192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Secondary 1.mat using Guid(6302d8c0a72fd974a90464b457778192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e5845eb99701e0956b2b33b1fa637b') in 0.018154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.280005 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Turret.fbx
+  artifactKey: Guid(79f6cec2cb7b5a540a71bf698f1d3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Turret.fbx using Guid(79f6cec2cb7b5a540a71bf698f1d3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff171e51bdbe40f5831dac6c0cf5c33') in 0.089565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.295175 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret.prefab
+  artifactKey: Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret.prefab using Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9d191a7fa6b1294b33c00f14b7568c') in 0.016110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.729294 seconds.
+  path: Assets/Turrets/Standard/StandardTurret.prefab
+  artifactKey: Guid(a6b99fb4d36256c41867828ad5d2ec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Standard/StandardTurret.prefab using Guid(a6b99fb4d36256c41867828ad5d2ec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d9d0329fd2db67c4eb742bfb8007d4') in 0.033246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.963618 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_barrels.mat
+  artifactKey: Guid(929017bf74cf3424d8f9285341aa6bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_barrels.mat using Guid(929017bf74cf3424d8f9285341aa6bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c639b009af94356214e8d29a33c8a0d0') in 0.024053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.069698 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_GunMetal.mat
+  artifactKey: Guid(f9e114c326c150f47aff264041bae695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_GunMetal.mat using Guid(f9e114c326c150f47aff264041bae695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb3bded2d0a69ae250fcf5a275a8de3') in 0.022853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.206846 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Main.mat
+  artifactKey: Guid(9e9fd45470bfbfb4788521e58d6512e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Main.mat using Guid(9e9fd45470bfbfb4788521e58d6512e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3787daea3e0d8388043d34df0691b94') in 0.025702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.765416 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Metal.mat
+  artifactKey: Guid(e7f4e55d96415ea459af4eb77184f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Metal.mat using Guid(e7f4e55d96415ea459af4eb77184f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdaaa1f127d0d6411112d985769a532') in 0.023637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.685135 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Metal2.mat
+  artifactKey: Guid(402fe7bcef61fc3458ecec778dc9c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Metal2.mat using Guid(402fe7bcef61fc3458ecec778dc9c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bf1d5bcc7cda966a8ace8a9737d67f') in 0.023890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.599905 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Secondary.mat
+  artifactKey: Guid(6302d8c0a72fd974a90464b457778192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Secondary.mat using Guid(6302d8c0a72fd974a90464b457778192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464bad2981cbc66b8dc3d2b09733691e') in 0.019368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.432089 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Metal 1.mat
+  artifactKey: Guid(deeb6a22e90139c4585cff7eac0f8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Metal 1.mat using Guid(deeb6a22e90139c4585cff7eac0f8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45dc7dab1fdf5ce7cd07631bae92e96') in 0.028793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Secondary 1.mat
+  artifactKey: Guid(7429becce14b9d140a83b92ae6cb4bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Secondary 1.mat using Guid(7429becce14b9d140a83b92ae6cb4bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446899c4db5c198fa17e5ec92eeb8a66') in 0.030957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Metal2 1.mat
+  artifactKey: Guid(35867741014108c4ca707b76eeb7b6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Metal2 1.mat using Guid(35867741014108c4ca707b76eeb7b6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975f3d0a358fb00d2162e3f0dd451d40') in 0.032131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.161611 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_barrels 1.mat
+  artifactKey: Guid(c03e581fea21d4b4cbd5ab6bd16b0487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_barrels 1.mat using Guid(c03e581fea21d4b4cbd5ab6bd16b0487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7471c8dc3d54874f40eb54e5a70ebf') in 0.019642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.311413 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_barrels 1.mat
+  artifactKey: Guid(eaf4f04f96fbcb94c8e79c2b744cce3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_barrels 1.mat using Guid(eaf4f04f96fbcb94c8e79c2b744cce3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cba8a12096c17265a9efb2a5fef9c0') in 0.022192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Main 1.mat
+  artifactKey: Guid(9d97b4a42dff6ab498fba8cfa547fff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Main 1.mat using Guid(9d97b4a42dff6ab498fba8cfa547fff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f451ea3d0376174bde6d9372612267b7') in 0.014781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_GunMetal 1.mat
+  artifactKey: Guid(b2eb6125251d8164dbf06dcb4aabc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_GunMetal 1.mat using Guid(b2eb6125251d8164dbf06dcb4aabc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a58b3a442230a6deccd49f95a97bf0c') in 0.016579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.950602 seconds.
+  path: Assets/Turrets/Standard/StandardTurret.prefab
+  artifactKey: Guid(a6b99fb4d36256c41867828ad5d2ec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Standard/StandardTurret.prefab using Guid(a6b99fb4d36256c41867828ad5d2ec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd59ab7c387bcbd609aba22ce2710f52') in 0.027329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.423017 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_barrels.mat
+  artifactKey: Guid(4be5e387d106c774ca3b8b20a3d9862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_barrels.mat using Guid(4be5e387d106c774ca3b8b20a3d9862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79043d7d34c94095a0ed25d2966b1572') in 0.015168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Main.mat
+  artifactKey: Guid(ec73aaf589467cf4cbc8ab9470a4eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Main.mat using Guid(ec73aaf589467cf4cbc8ab9470a4eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1971eb6c3454044473339722e2a68106') in 0.030154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Secondary.mat
+  artifactKey: Guid(912026010385edf48ac1781deb5e208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Secondary.mat using Guid(912026010385edf48ac1781deb5e208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422993f5865e7ad2e9f70248bb8214a9') in 0.018258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_Metal.mat
+  artifactKey: Guid(99dd5d2a0e889ae4ab8a547b0ba92eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_Metal.mat using Guid(99dd5d2a0e889ae4ab8a547b0ba92eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c83eaccdca42542166b5112fcad139c') in 0.022524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Turrets/Fire Turret/Turret_GunMetal.mat
+  artifactKey: Guid(51bad08bf28438e49a7d466fed053c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/Turret_GunMetal.mat using Guid(51bad08bf28438e49a7d466fed053c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd9d6e2683bd3f47bd12667bb7753fb') in 0.035302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.849525 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_barrels.mat
+  artifactKey: Guid(4be5e387d106c774ca3b8b20a3d9862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_barrels.mat using Guid(4be5e387d106c774ca3b8b20a3d9862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51b761a32c9cff95ec03e7074922876') in 0.024094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.939343 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_GunMetal.mat
+  artifactKey: Guid(51bad08bf28438e49a7d466fed053c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_GunMetal.mat using Guid(51bad08bf28438e49a7d466fed053c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7313779d12774594c053c21ba04608c') in 0.022691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.269228 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_Main.mat
+  artifactKey: Guid(ec73aaf589467cf4cbc8ab9470a4eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_Main.mat using Guid(ec73aaf589467cf4cbc8ab9470a4eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373787ed6b4e8383f3932c4c399377d6') in 0.024903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.716918 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_Metal.mat
+  artifactKey: Guid(99dd5d2a0e889ae4ab8a547b0ba92eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_Metal.mat using Guid(99dd5d2a0e889ae4ab8a547b0ba92eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71674ba18024289a04d78596793184b2') in 0.025122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.552972 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_Secondary.mat
+  artifactKey: Guid(912026010385edf48ac1781deb5e208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_Secondary.mat using Guid(912026010385edf48ac1781deb5e208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01e4fc83df56907999d4bea2cd5aa6e') in 0.026284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.638988 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret.prefab
+  artifactKey: Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret.prefab using Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c881391a93398cfd043df2b9994157') in 0.029705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 328.855026 seconds.
+  path: Assets/Turrets/Fire Turret/New Folder
+  artifactKey: Guid(b724e0b40b435c04a8593f36e474a45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/New Folder using Guid(b724e0b40b435c04a8593f36e474a45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c2cb95c02b5502b23c5d8bce6d1d89') in 0.002937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.770236 seconds.
+  path: Assets/Turrets/Fire Turret/FireMaterials
+  artifactKey: Guid(b724e0b40b435c04a8593f36e474a45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireMaterials using Guid(b724e0b40b435c04a8593f36e474a45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da055212e5781509841df071e31573b') in 0.004081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.838718 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret.prefab
+  artifactKey: Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret.prefab using Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c0cbc646a104aaf368fbfbd57850fc') in 0.024047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_Metal 1.mat
+  artifactKey: Guid(6b066213c42871b488f8e7e555b04832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_Metal 1.mat using Guid(6b066213c42871b488f8e7e555b04832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8ff7101abeb94ec8180363fd4c8b0c') in 0.013369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_Main 1.mat
+  artifactKey: Guid(5020e24ba3895d74fac10b5789cf797c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_Main 1.mat using Guid(5020e24ba3895d74fac10b5789cf797c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25c1ca00a2cd4e7ec581c8c3fc90742') in 0.030342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_Main.mat
+  artifactKey: Guid(ec73aaf589467cf4cbc8ab9470a4eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_Main.mat using Guid(ec73aaf589467cf4cbc8ab9470a4eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55980a5900fe6822e507ff9a3fc78ac5') in 0.018947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_GunMetal 1.mat
+  artifactKey: Guid(290e6b26a295a54408acbf9787e46dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_GunMetal 1.mat using Guid(290e6b26a295a54408acbf9787e46dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e267c599ba9560271b25485797f67d4') in 0.018068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_Secondary 1.mat
+  artifactKey: Guid(9056bc5610ee5f64fb3bbbc4f3829d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_Secondary 1.mat using Guid(9056bc5610ee5f64fb3bbbc4f3829d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea8d79a99d4fc7110de50d6aa9800ed') in 0.036826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret_barrels 1.mat
+  artifactKey: Guid(ff70d0783811dca43beb4710e978b682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret_barrels 1.mat using Guid(ff70d0783811dca43beb4710e978b682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a615b8eb3fc8213388617ae88b65ad15') in 0.017041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 360.602855 seconds.
+  path: Assets/Imports/tower-defense-assets/Models/Standard Turret/Turret with panels.fbx
+  artifactKey: Guid(25aabe8f4d7d5034ba90c5cc10e025a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tower-defense-assets/Models/Standard Turret/Turret with panels.fbx using Guid(25aabe8f4d7d5034ba90c5cc10e025a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17aaf6984054d86541d45fe1f3496877') in 0.072898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.232586 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade_barrels.mat
+  artifactKey: Guid(ff70d0783811dca43beb4710e978b682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade_barrels.mat using Guid(ff70d0783811dca43beb4710e978b682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8567e456c7a5def269d2d744be5aa167') in 0.028249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.186694 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade_Secondary 1.mat
+  artifactKey: Guid(9056bc5610ee5f64fb3bbbc4f3829d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade_Secondary 1.mat using Guid(9056bc5610ee5f64fb3bbbc4f3829d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1048e117ca08fb4e2db3146e14b621cd') in 0.024408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.447000 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade_Metal.mat
+  artifactKey: Guid(6b066213c42871b488f8e7e555b04832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade_Metal.mat using Guid(6b066213c42871b488f8e7e555b04832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6b6d2b42decc0ca59d7022d4ccbf52') in 0.024640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.429516 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade_Secondary.mat
+  artifactKey: Guid(9056bc5610ee5f64fb3bbbc4f3829d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade_Secondary.mat using Guid(9056bc5610ee5f64fb3bbbc4f3829d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63bb877b992061f67f5d2cdb7470efa') in 0.024149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.792206 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade_Main.mat
+  artifactKey: Guid(5020e24ba3895d74fac10b5789cf797c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade_Main.mat using Guid(5020e24ba3895d74fac10b5789cf797c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f3cdef5647f547c7dda40e680c6a06') in 0.024924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.398812 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade_GunMetal.mat
+  artifactKey: Guid(290e6b26a295a54408acbf9787e46dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade_GunMetal.mat using Guid(290e6b26a295a54408acbf9787e46dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56508cb5b3246aa55b3263a0ff13b56') in 0.026872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.997946 seconds.
+  path: Assets/Turrets/Fire Turret/FireUpgradeMaterials
+  artifactKey: Guid(b381e2e177e04fc49810ba491783f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireUpgradeMaterials using Guid(b381e2e177e04fc49810ba491783f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755d972e6f8ab0cf7bfebac7cbe94f37') in 0.004462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.144088 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade.prefab
+  artifactKey: Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade.prefab using Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5c5904ccff46060c64e50b779fe525') in 0.022838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 169.192978 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade.prefab
+  artifactKey: Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade.prefab using Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b98e619489f6f7ef3762d8610c9978') in 0.021774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.202056 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurret.prefab
+  artifactKey: Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurret.prefab using Guid(a2cdf7394b962f34ab75f6231d9e7ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7853be76d009d9f3cc2a1455eff775c') in 0.054785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Turrets/Fire Turret/FireTurretUpgrade.prefab
+  artifactKey: Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireTurretUpgrade.prefab using Guid(e3f91dacba58f6a4bab70149b68873ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9bee75a2962c5602c2944d52ca6cdf') in 0.042549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.245480 seconds.
+  path: Assets/Turrets/Ice Turret/FireTurret.prefab
+  artifactKey: Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/FireTurret.prefab using Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9944542be2b40b37558c53d6f902f99') in 0.014514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Turrets/Ice Turret/FireTurretUpgrade.prefab
+  artifactKey: Guid(649447cd43ab3564fbab446240a2b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/FireTurretUpgrade.prefab using Guid(649447cd43ab3564fbab446240a2b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2222e07cff12bb9078bc9e3da38ad55') in 0.038330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.394658 seconds.
+  path: Assets/Turrets/Ice Turret/FireMaterials
+  artifactKey: Guid(6d2829ff7d844b94fae1e0d220ca7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/FireMaterials using Guid(6d2829ff7d844b94fae1e0d220ca7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef71f3dc8f98121a673a6984ab54f6f') in 0.002432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.124974 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials
+  artifactKey: Guid(6d2829ff7d844b94fae1e0d220ca7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials using Guid(6d2829ff7d844b94fae1e0d220ca7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd98597a7b9177f777c3f8d396defa9e') in 0.003312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.561217 seconds.
+  path: Assets/Turrets/Ice Turret/FireUpgradeMaterials
+  artifactKey: Guid(99eb49774633fce4086ce1f061d60694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/FireUpgradeMaterials using Guid(99eb49774633fce4086ce1f061d60694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ec206ff67c8c30aae067519029199b') in 0.002186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.540434 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials
+  artifactKey: Guid(99eb49774633fce4086ce1f061d60694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials using Guid(99eb49774633fce4086ce1f061d60694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1276622f55200087e1445a3fd9a23197') in 0.004073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.018865 seconds.
+  path: Assets/Turrets/Ice Turret/IceTurret.prefab
+  artifactKey: Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceTurret.prefab using Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fafd17c5fa08a5470b9bba6566450db') in 0.026915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.361036 seconds.
+  path: Assets/Turrets/Ice Turret/IceTurretUpgrade.prefab
+  artifactKey: Guid(649447cd43ab3564fbab446240a2b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceTurretUpgrade.prefab using Guid(649447cd43ab3564fbab446240a2b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9cdd71d5dd98da34285ecd993af36d') in 0.035956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.425366 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/FireTurret_barrels.mat
+  artifactKey: Guid(eb774e38966abe24a9fa509fbeab7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/FireTurret_barrels.mat using Guid(eb774e38966abe24a9fa509fbeab7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cd91ca5ca1997d92455ff5236898bb') in 0.024427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/FireTurret_Main.mat
+  artifactKey: Guid(adfc0fdca3151b24591f6100ec7088f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/FireTurret_Main.mat using Guid(adfc0fdca3151b24591f6100ec7088f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56a0cd0d5a2aac41518bd8b3f951eaf') in 0.039428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/FireTurret_Secondary.mat
+  artifactKey: Guid(5aa5b35c0bf8f6e48961354fbd433073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/FireTurret_Secondary.mat using Guid(5aa5b35c0bf8f6e48961354fbd433073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d7785822e08815b78cfadd7f3167f3') in 0.029157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/FireTurret_Metal.mat
+  artifactKey: Guid(ccc4be9ef8e7d934f8e574e9b15c77ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/FireTurret_Metal.mat using Guid(ccc4be9ef8e7d934f8e574e9b15c77ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef070243852cf1c90b8eefd0a406c87') in 0.029719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/FireTurret_GunMetal.mat
+  artifactKey: Guid(e9462da0ec152184298324df8014b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/FireTurret_GunMetal.mat using Guid(e9462da0ec152184298324df8014b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf037b3a6ad5f2e43c4ed9ae1ec8989') in 0.032889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.999505 seconds.
+  path: Assets/Turrets/Fire Turret/FireMaterials/FireTurret_Metal.mat
+  artifactKey: Guid(99dd5d2a0e889ae4ab8a547b0ba92eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireMaterials/FireTurret_Metal.mat using Guid(99dd5d2a0e889ae4ab8a547b0ba92eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a879dc4dd6e60352f55bdfe8894f007') in 0.010296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.064422 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_barrels.mat
+  artifactKey: Guid(eb774e38966abe24a9fa509fbeab7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_barrels.mat using Guid(eb774e38966abe24a9fa509fbeab7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcf358199cd42f5c52339fcc0823990') in 0.024883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.586647 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Secondary.mat
+  artifactKey: Guid(5aa5b35c0bf8f6e48961354fbd433073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Secondary.mat using Guid(5aa5b35c0bf8f6e48961354fbd433073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16be1b56c427044701219021e0b5470d') in 0.025250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.809442 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Metal.mat
+  artifactKey: Guid(ccc4be9ef8e7d934f8e574e9b15c77ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Metal.mat using Guid(ccc4be9ef8e7d934f8e574e9b15c77ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70da13f9bfabc14a70146a5caef12d06') in 0.026885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.506569 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Main.mat
+  artifactKey: Guid(adfc0fdca3151b24591f6100ec7088f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Main.mat using Guid(adfc0fdca3151b24591f6100ec7088f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9482ce930d83225acf4468203cecbb') in 0.025807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.820819 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_GunMetal.mat
+  artifactKey: Guid(e9462da0ec152184298324df8014b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_GunMetal.mat using Guid(e9462da0ec152184298324df8014b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086416bfc4201b2161e76f5c1e334bd1') in 0.025322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.488622 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_barrels.mat
+  artifactKey: Guid(f57ec7d91437a0d4abe24048b91df351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_barrels.mat using Guid(f57ec7d91437a0d4abe24048b91df351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f48a2e093f8179c48c417afe2adbc5c') in 0.014643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_GunMetal.mat
+  artifactKey: Guid(71f35eb0dfbb7a04785f46857138c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_GunMetal.mat using Guid(71f35eb0dfbb7a04785f46857138c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c17d7fbf532f9ccbc70de135f836436') in 0.025283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_Metal.mat
+  artifactKey: Guid(764b9334bd60d644fbafa1859338791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_Metal.mat using Guid(764b9334bd60d644fbafa1859338791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ee709a6fc735caf59982f385a20390') in 0.033936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_Main.mat
+  artifactKey: Guid(2c3b6f3e6054c4d4fa565a3933e4a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_Main.mat using Guid(2c3b6f3e6054c4d4fa565a3933e4a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671098081b608e9a17973dfc21028c9a') in 0.036265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_Secondary.mat
+  artifactKey: Guid(486769c12bf12da4780434bf1ebca564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/FireTurretUpgrade_Secondary.mat using Guid(486769c12bf12da4780434bf1ebca564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c6474913e08caaa38e27246762c460') in 0.035463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.073873 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_barrels.mat
+  artifactKey: Guid(f57ec7d91437a0d4abe24048b91df351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_barrels.mat using Guid(f57ec7d91437a0d4abe24048b91df351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ba94457e0bdb32a9eefbb922e5c9c8') in 0.022229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.151641 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_Secondary.mat
+  artifactKey: Guid(486769c12bf12da4780434bf1ebca564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_Secondary.mat using Guid(486769c12bf12da4780434bf1ebca564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2b8ce02531b6fee0708cc067de2b11') in 0.025248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.433911 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_Metal.mat
+  artifactKey: Guid(764b9334bd60d644fbafa1859338791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_Metal.mat using Guid(764b9334bd60d644fbafa1859338791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd8cf83c926914d544ba53ba65338c8') in 0.025434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.035169 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_Main.mat
+  artifactKey: Guid(2c3b6f3e6054c4d4fa565a3933e4a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_Main.mat using Guid(2c3b6f3e6054c4d4fa565a3933e4a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4fe1a35357d50b9e26a9584f9899da') in 0.026240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.306929 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_GunMetal.mat
+  artifactKey: Guid(71f35eb0dfbb7a04785f46857138c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_GunMetal.mat using Guid(71f35eb0dfbb7a04785f46857138c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af85a808344c948c79f4ba7c95175379') in 0.027551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.102244 seconds.
+  path: Assets/Turrets/Fire Turret/FireUpgradeMaterials/FireTurretUpgrade_GunMetal.mat
+  artifactKey: Guid(290e6b26a295a54408acbf9787e46dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireUpgradeMaterials/FireTurretUpgrade_GunMetal.mat using Guid(290e6b26a295a54408acbf9787e46dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ff22dcc0b7b9fec07eb217b3368282') in 0.012300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Turrets/Fire Turret/FireUpgradeMaterials/FireTurretUpgrade_Metal.mat
+  artifactKey: Guid(6b066213c42871b488f8e7e555b04832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Fire Turret/FireUpgradeMaterials/FireTurretUpgrade_Metal.mat using Guid(6b066213c42871b488f8e7e555b04832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ac42308c165863909d1ee70cf65bab') in 0.033975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.847697 seconds.
+  path: Assets/Turrets/Ice Turret/IceTurret.prefab
+  artifactKey: Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceTurret.prefab using Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186e63c34a22678e8f75796201e40cc1') in 0.016113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.619778 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_barrels.mat
+  artifactKey: Guid(eb774e38966abe24a9fa509fbeab7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_barrels.mat using Guid(eb774e38966abe24a9fa509fbeab7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99b5136bbbaecdd9361aae573defc7e') in 0.034235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Main.mat
+  artifactKey: Guid(adfc0fdca3151b24591f6100ec7088f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Main.mat using Guid(adfc0fdca3151b24591f6100ec7088f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3010aacbfaacb842efacbd97fb531f35') in 0.017722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Main 1.mat
+  artifactKey: Guid(419b1c82a4bc80d4fbe70e857d6fa785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Main 1.mat using Guid(419b1c82a4bc80d4fbe70e857d6fa785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0a177b62776fc7e2b7b4c6272199cc') in 0.020109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Metal.mat
+  artifactKey: Guid(ccc4be9ef8e7d934f8e574e9b15c77ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Metal.mat using Guid(ccc4be9ef8e7d934f8e574e9b15c77ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c7449f64ee2c27bce3daaf1f117f48') in 0.033052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Secondary 1.mat
+  artifactKey: Guid(cb0a7552a9883054394aa67a768010f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Secondary 1.mat using Guid(cb0a7552a9883054394aa67a768010f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a4ea6501d26a9432c8663f1ee91540') in 0.039967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Metal 1.mat
+  artifactKey: Guid(1423f03990670d7478f437ac1b02d954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_Metal 1.mat using Guid(1423f03990670d7478f437ac1b02d954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9875f249284bd507d87f6257b2aa1f7') in 0.038828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Turrets/Ice Turret/IceMaterials/IceTurret_GunMetal 1.mat
+  artifactKey: Guid(074a2c58831e471418cbe2f77bb08575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceMaterials/IceTurret_GunMetal 1.mat using Guid(074a2c58831e471418cbe2f77bb08575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5758ab66ef6de3c65047973eccf2e6d5') in 0.044596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.697922 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_barrels.mat
+  artifactKey: Guid(f57ec7d91437a0d4abe24048b91df351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_barrels.mat using Guid(f57ec7d91437a0d4abe24048b91df351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcce7f9d9ba8b0c7fe8eb90ac783011') in 0.015753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_GunMetal.mat
+  artifactKey: Guid(71f35eb0dfbb7a04785f46857138c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_GunMetal.mat using Guid(71f35eb0dfbb7a04785f46857138c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953f689f1d8bde45311a63d1f08a72dd') in 0.040514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_Main.mat
+  artifactKey: Guid(2c3b6f3e6054c4d4fa565a3933e4a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceUpgradeMaterials/IceTurretUpgrade_Main.mat using Guid(2c3b6f3e6054c4d4fa565a3933e4a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991ed96a9755dfe222dffdb8650735e4') in 0.040637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.980721 seconds.
+  path: Assets/Turrets/Ice Turret/IceTurret.prefab
+  artifactKey: Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceTurret.prefab using Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6254cbf7fcddc4cc8b84ff869c56aafe') in 0.019972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Turrets/Ice Turret/IceTurretUpgrade.prefab
+  artifactKey: Guid(649447cd43ab3564fbab446240a2b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceTurretUpgrade.prefab using Guid(649447cd43ab3564fbab446240a2b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0867a982d0a19eb3c1690d5e1a996c') in 0.037821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.398978 seconds.
+  path: Assets/Turrets/Ice Turret/IceTurret.prefab
+  artifactKey: Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceTurret.prefab using Guid(89fd910e1c0cc074aa19d37a7bb5c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d49d8a84204d815cd1e03dea65cfd1a') in 0.046765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Turrets/Ice Turret/IceTurretUpgrade.prefab
+  artifactKey: Guid(649447cd43ab3564fbab446240a2b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/Ice Turret/IceTurretUpgrade.prefab using Guid(649447cd43ab3564fbab446240a2b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce04bf84074b3b2501d8612ee5cc09ae') in 0.033537 seconds 

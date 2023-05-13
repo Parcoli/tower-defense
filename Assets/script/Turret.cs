@@ -6,6 +6,8 @@ public class Turret : MonoBehaviour
     public float range = 15f;
     private Transform target;
     private Mob targetMob;
+    public bool isFire;
+    public bool isIce;
 
     [Header("Use Bullets (default)")]
     public GameObject bulletPrefab;

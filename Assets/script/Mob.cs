@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class Mob : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class Mob : MonoBehaviour
     public GameObject deathEffect;
     public Image healthBar;
     public bool isFire;
+    public float fireDamageAmount = 20f;
     public bool isIce;
     [HideInInspector]
     public bool isDead;
@@ -36,6 +38,30 @@ public class Mob : MonoBehaviour
     public void Slow(float amount)
     { 
         speed = startSpeed * (1f - amount);
+    }
+    public IEnumerator Burn()
+    {
+        for (int i = 0; i < 5; i++) 
+        {
+            if (isFire)
+            {
+                TakeDamage(fireDamageAmount/2);
+            }
+            else if(isIce)
+            {
+                TakeDamage(fireDamageAmount*2);
+            }
+            else
+            {
+                TakeDamage(fireDamageAmount);
+            }
+            
+
+            yield return new WaitForSeconds(0.5f);
+        }
+        
+
+
     }
     private void Die()
     {

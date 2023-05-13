@@ -16,7 +16,11 @@ public class WaveSpawner : MonoBehaviour
 
     private float countdown = 5f;
 
-    private int MobsNumber = 0;
+    private void Start()
+    {
+        _mobAlive = 0;
+    }
+
 
     void Update()
     {
@@ -49,13 +53,21 @@ public class WaveSpawner : MonoBehaviour
 
         for (int i = 0; i < PlayerStats.rounds; i++)
         {
-            int generate = Random.Range(0, 20);
+            int generate = Random.Range(0, 101);
 
-            if (generate >= 10)
+            if (generate >= 75)
             { 
                 SpawnMob(wave.mobNormal); 
             }
-            else if (generate >= 7)
+            else if (generate >= 50)
+            {
+                SpawnMob(wave.fireMob);
+            }
+            else if (generate >= 25)
+            {
+                SpawnMob(wave.iceMob);
+            }
+            else if (generate >= 15)
             {
                 SpawnMob(wave.mobSlow);
             }

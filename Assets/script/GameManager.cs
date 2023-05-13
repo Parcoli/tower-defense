@@ -29,5 +29,6 @@ public class GameManager : MonoBehaviour
     {
         gameIsOver = true;
         gameOverUI.SetActive(true);
+        Time.timeScale = 0f;
     }
 }

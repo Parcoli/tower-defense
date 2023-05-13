@@ -5,6 +5,8 @@ public class Shop : MonoBehaviour
     public TurretBluePrint standardTurret;
     public TurretBluePrint missileLauncherTurret;
     public TurretBluePrint laserBeamTurret;
+    public TurretBluePrint iceTurret;
+    public TurretBluePrint fireTurret;
     private BuildManager buildManager;
 
     private void Start()
@@ -26,5 +28,17 @@ public class Shop : MonoBehaviour
     {
         Debug.Log("Tourelle laser selectionné");
         buildManager.SelectTurretToBuild(laserBeamTurret);
+    }
+
+    public void SelectIceTurret()
+    {
+        Debug.Log("Tourelle laser selectionné");
+        buildManager.SelectTurretToBuild(iceTurret);
+    }
+
+    public void SelectFireTurret()
+    {
+        Debug.Log("Tourelle laser selectionné");
+        buildManager.SelectTurretToBuild(fireTurret);
     }
 }

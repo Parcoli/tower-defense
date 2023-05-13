@@ -8,6 +8,8 @@ public class Bullet : MonoBehaviour
     public float speed = 70f;
     public int damage = 50;
     public float explosionRadius = 0f;
+    public bool isFire;
+    public bool isIce;
 
     public void Seek(Transform _target)
     {
@@ -50,6 +52,16 @@ public class Bullet : MonoBehaviour
         {
             Explode();
         }
+        else if(isFire)
+        {
+            Damage(target);
+            FireDamage(target);
+        }
+        else if (isIce)
+        {
+            Damage(target);
+            IceDamage(target);
+        }
         else
         {
             Damage(target);
@@ -83,9 +95,39 @@ public class Bullet : MonoBehaviour
 
     }
 
+    void FireDamage(Transform mob)
+    {
+        Mob m = mob.GetComponent<Mob>();
+        if (m != null)
+        {
+            m.TakeDamage(damage);
+            StartCoroutine(m.Burn());
+        }
+        else
+        {
+            Debug.LogError("Pas de script Mob sur l'ennemi");
+        }
+
+    }
+    void IceDamage(Transform mob)
+    {
+        Mob m = mob.GetComponent<Mob>();
+        if (m != null)
+        {
+            m.TakeDamage(damage);
+        }
+        else
+        {
+            Debug.LogError("Pas de script Mob sur l'ennemi");
+        }
+
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, explosionRadius);
     }
+
+    
 }
