@@ -4993,12 +4993,12 @@ MonoBehaviour:
   iceTurret:
     prefab: {fileID: 945601321044652809, guid: 89fd910e1c0cc074aa19d37a7bb5c697, type: 3}
     cost: 150
-    upgradedPrefab: {fileID: 838885733354021054, guid: 649447cd43ab3564fbab446240a2b722, type: 3}
+    upgradedPrefab: {fileID: 2957547585840471825, guid: bf0a9bd96de6ced4ea53c598b51930a5, type: 3}
     upgradeCost: 125
   fireTurret:
     prefab: {fileID: 945601321044652809, guid: a2cdf7394b962f34ab75f6231d9e7ef4, type: 3}
     cost: 150
-    upgradedPrefab: {fileID: 838885733354021054, guid: e3f91dacba58f6a4bab70149b68873ce, type: 3}
+    upgradedPrefab: {fileID: 4936192297361453392, guid: 6940313fe7a2cb54f883992c3117353e, type: 3}
     upgradeCost: 125
 --- !u!114 &230873472
 MonoBehaviour:
@@ -15077,7 +15077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5739968198330482923, guid: 7bdb1e7343b2fd848a84b1c298259f48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.5
+      value: 15.5
       objectReference: {fileID: 0}
     - target: {fileID: 5739968198330482923, guid: 7bdb1e7343b2fd848a84b1c298259f48, type: 3}
       propertyPath: m_LocalPosition.y
