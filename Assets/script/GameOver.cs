@@ -7,7 +7,7 @@ public class GameOver : MonoBehaviour
     public Text roundsText;
 
     public SceneFader fader;
-    public string mainMenu = "";
+   
     // Start is called before the first frame update
     private void OnEnable()
     {
@@ -23,7 +23,7 @@ public class GameOver : MonoBehaviour
 
     public void Menu()
     {
-        Debug.Log("Direction le menu principal");
-        fader.FadeTo(mainMenu);
+        
+        SceneManager.LoadScene("MainMenu");
     }
 }

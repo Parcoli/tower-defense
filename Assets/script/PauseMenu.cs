@@ -7,7 +7,7 @@ public class PauseMenu : MonoBehaviour
 
     public SceneFader fader;
 
-    public string menuSceneName = "MainMenu";
+  
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P) )
@@ -37,8 +37,7 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenu()
     {
-        Debug.Log("Chargement du menu");
-        // fader.FadeTo(menuSceneName);
+        SceneManager.LoadScene("MainMenu");
     }
 
 }
