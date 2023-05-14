@@ -21,6 +21,7 @@ public class Turret : MonoBehaviour
     public LineRenderer lineRenderer;
     public ParticleSystem impactEffect;
     public Light impactLight;
+    public float typeMultiplicator = 1.5f;
 
     [Header("Unity setup fields")]
     public string mobTag = "Mob";
@@ -124,8 +125,18 @@ public class Turret : MonoBehaviour
 
     void Laser()
     {
-
-        targetMob.TakeDamage(damageOverTime * Time.deltaTime);
+        if (targetMob.isFire)
+        {
+            targetMob.TakeDamage(damageOverTime * typeMultiplicator * Time.deltaTime);
+        }
+        else if (targetMob.isIce)
+        {
+            targetMob.TakeDamage(damageOverTime / typeMultiplicator * Time.deltaTime);
+        }
+        else
+        {
+            targetMob.TakeDamage(damageOverTime * Time.deltaTime);
+        }
         targetMob.Slow(slowAmount);
 
         if (!lineRenderer.enabled)

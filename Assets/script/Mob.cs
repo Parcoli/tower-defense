@@ -57,7 +57,7 @@ public class Mob : MonoBehaviour
             }
             
 
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2f);
         }
         
 

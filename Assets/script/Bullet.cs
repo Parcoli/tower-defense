@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     public int damage = 50;
     public float explosionRadius = 0f;
     public bool isFire;
-    public bool isIce;
+    public float fireMultiplicator;
 
     public void Seek(Transform _target)
     {
@@ -56,11 +56,6 @@ public class Bullet : MonoBehaviour
         {
             Damage(target);
             FireDamage(target);
-        }
-        else if (isIce)
-        {
-            Damage(target);
-            IceDamage(target);
         }
         else
         {
