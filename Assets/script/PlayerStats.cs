@@ -13,6 +13,7 @@ public class PlayerStats : MonoBehaviour
     public static int rounds;
 
     public static int roundsSurived;
+    public static string pseudo;
     public void Start()
     {
         rounds = 0;

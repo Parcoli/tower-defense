@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverUI;
 
+    private Scores scores;
+
     private void Start()
     {
         gameIsOver = false;
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour
 
     private void EndGame()
     {
+        Scores.setScore();
         gameIsOver = true;
         gameOverUI.SetActive(true);
         Time.timeScale = 0f;
