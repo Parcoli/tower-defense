@@ -49,7 +49,10 @@ public class WaveSpawner : MonoBehaviour
 
         PlayerStats.rounds++;
         _mobAlive = PlayerStats.rounds;
-
+        if (_mobAlive > 25)
+        {
+            _mobAlive = 25;
+        }
 
         for (int i = 0; i < PlayerStats.rounds; i++)
         {

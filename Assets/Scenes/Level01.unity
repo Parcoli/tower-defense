@@ -1742,6 +1742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 84379699}
+  - component: {fileID: 84379700}
   m_Layer: 6
   m_Name: Nodes
   m_TagString: Untagged
@@ -2270,6 +2271,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &84379700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84379698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d99a3da3e88ca4c9125dcae3211eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &93396178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27563,7 +27576,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roundsText: {fileID: 1532415811}
   fader: {fileID: 4772553141215017456, guid: dd2e820cd34cb2e4aaf31aefaa68511e, type: 3}
-  mainMenu: 
 --- !u!95 &1414189379
 Animator:
   serializedVersion: 5
@@ -40952,7 +40964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 400
-  startLives: 1
+  startLives: 5
 --- !u!114 &2147037079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40980,7 +40992,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ui: {fileID: 918979446}
   fader: {fileID: 4772553141215017456, guid: dd2e820cd34cb2e4aaf31aefaa68511e, type: 3}
-  menuSceneName: MainMenu
 --- !u!1001 &4772553140317903412
 PrefabInstance:
   m_ObjectHideFlags: 0
